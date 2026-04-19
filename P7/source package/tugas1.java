@@ -1,18 +1,21 @@
-//TUGAS BERKAITAN DENGAN IF ELSE 
+//TUGAS membuat if else
 import java.util.Scanner;
-public class tugas1
-{
-    public static void main(String[] args)
-    {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Masukan umur: ");
+public class tugas1 {
+    public static void main(String[] args){
+        Scanner input= new Scanner (System.in);
+        System.out.print("Masukan umur :");
         int umur = input.nextInt();
 
+        String status;  
         if (umur >= 18){
-            System.out.println("DEWASA");
+            status ="DEWASA";
         } else {
-            System.out.println("BELUM DEWASA");
+            status = "BELUM DEWASA";
         }
-    input.close();
+
+        System.out.println("Umur kamu : " + umur);
+        System.out.println("Status :" + status );
+
+        input.close();
     }
 }
