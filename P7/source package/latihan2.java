@@ -19,7 +19,7 @@ public class latihan2
                 System.out.println("Beruang");
                 break;
             default:
-                System.out.println("Hewan tidak tersedia");
+                System.out.println("pilihan tidak tersedia");
         }
     System.out.println("Pilihan kamu: " + pilihan);
     input.close();
