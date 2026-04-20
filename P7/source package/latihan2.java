@@ -7,7 +7,7 @@ public class latihan2
 
         System.out.println("Pilihan :");
         System.out.println("a. Ayam ");
-        System.out.println("b. Beuang");
+        System.out.println("b. Beruang");
         System.out.print("Pilih hewan:");
         String pilihan = input.nextLine();
 
